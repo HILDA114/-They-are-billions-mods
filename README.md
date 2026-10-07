@@ -1,17 +1,15 @@
-# gSpeed · 游戏速度调节
+# They Are Billions Tools · 亿万僵尸工具
 
-为《亿万僵尸》调节游戏速度，减少发展阶段的等待，随时恢复正常速度。工具可放在任意目录。
+**AutoGarrison：**兵营新兵自动前往有空位的石质哨塔，没有可用塔时保留集结点行为。下载玩家包，退出游戏，将解压后的全部内容复制到游戏根目录并覆盖同名文件，之后照常启动游戏。
 
-**使用：**需要 Windows 和 64 位 Python 3.7+。将 `gspeed.bat` 与 `tab_gspeed.py` 放在同一文件夹，先进入游戏对局，再双击 `gspeed.bat`。输入 `2`、`3`、`5` 等数字调速，`0` 或 `r` 恢复正常速度，`q` 退出。
+**gSpeed：**独立调节游戏速度，减少发展期等待。需要 64 位 Python 3.7+；保持 `gspeed.bat` 和 `tab_gspeed.py` 在同一文件夹，进入对局后双击 `gspeed.bat`。输入数字调速，`0` 或 `r` 恢复正常速度，`q` 退出。
 
-目前在游戏 1.1.4 上使用过，其他版本未验证。仅支持 64 位游戏；实际倍速受 CPU 和帧率影响。无需额外 Python 库。
+两者均用于 Windows 64 位游戏。AutoGarrison 目前仅支持特定 1.1.4.10 程序；gSpeed 在 1.1.4 上使用过。兼容范围见各工具的 README。
 
 ---
 
-Adjust the game speed in They Are Billions to reduce waiting during colony development, and return to normal speed whenever needed. The tool can be placed in any folder.
+**AutoGarrison:** Newly trained infantry automatically move to stone towers with free slots. When no tower is available, they keep their rally orders. Download the player package, close the game, copy all extracted contents into the game directory, and replace matching files. Launch the game normally.
 
-**Usage:** Requires Windows and 64-bit Python 3.7+. Keep `gspeed.bat` and `tab_gspeed.py` together. Enter a match, then run `gspeed.bat`. Enter a number such as `2`, `3`, or `5` to change speed, `0` or `r` to reset, and `q` to exit.
+**gSpeed:** Adjust game speed to reduce waiting. Requires 64-bit Python 3.7+. Keep `gspeed.bat` and `tab_gspeed.py` together, enter a match, and run `gspeed.bat`. Enter a number to change speed, `0` or `r` to reset, and `q` to exit.
 
-Used with game version 1.1.4; other versions are unverified. Supports only the 64-bit game. Actual speed depends on CPU performance and frame rate. No extra Python packages are needed.
-
-MIT License. Field-layout reference: Tuuuup! / FearlessRevolution (`TheyAreBillions.CT`); attribution is preserved in the source.
+Both tools target the Windows 64-bit game. AutoGarrison currently supports one specific 1.1.4.10 executable; gSpeed has been used with 1.1.4. See each tool's README for compatibility details.
